@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.card-post {
+
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: $base-post;
+    padding: 32px;  
+    cursor: pointer;
+    
+    .card-post-header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card-post-title {
+            font-size: $font-size-2;
+            color: $base-title;
+
+            width: 280px;
+        }
+        .card-post-date {
+            font-size: $font-size-5;
+
+            color: $base-span;
+        }
+    }
+
+    .card-post-body {
+
+        .card-post-text {
+            font-size: $font-size-4;
+            color: $base-text;
+        }
+
+    }
+}
